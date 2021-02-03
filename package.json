@@ -6,13 +6,10 @@
   "main": "server/index.js",
   "scripts": {
     "start": "json-server server/index.js --routes server/routes.json --middlewares server/handle-delay.js server/handle-ads.js",
-    "start-dev": "npm start & webpack serve --open",
     "dev": "webpack --mode development",
-    "dev-start": "webpack-dev-server ./webpack.config.js --open",
+    "start-dev": "npm start & webpack serve --open",
     "server": "npm start & node server.js",
-    "build:dev": "webpack serve --hot --open --config",
     "build": "webpack",
-    "build:prod": "webpack -p --progress --config ./config/webpack.prod.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

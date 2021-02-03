@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles.css';
 import {
     Nav,
     Navbar,
@@ -7,16 +8,9 @@ import {
 
 export default function () {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="dark" expand="lg">
             <Col>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
-                        <Nav.Link href="#home">How it works</Nav.Link>
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
+                <img className="logo" src="https://creatella.ventures/wp-content/uploads/2016/03/creatella-logo-2x.png" />
             </Col>
         </Navbar>
     );

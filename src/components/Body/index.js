@@ -8,7 +8,7 @@ import {
 import axios from 'axios';
 import { relativeTime, genRan, appendAdvert } from '../../helpers';
 import Ads from '../Ads';
-import './index.css';
+import './styles.css';
 import ProductCard from '../ProductCard';
 import Loader from '../Loader';
 

@@ -55,18 +55,4 @@ module.exports = {
         maxEntrypointSize: 512000,
         maxAssetSize: 512000
     },
-    // resolve: {
-    //     // ... rest of the resolve config
-    //     fallback: {
-    //         "path": false,
-    //         "buffer": false,
-    //         "crypto": false,
-    //         "https": false,
-    //         "http": false,
-    //         "vm": false,
-    //         "os": false,
-    //         "assert": false,
-    //         "tty": false
-    //     }
-    // },
 };

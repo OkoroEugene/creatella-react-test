@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css';
+import './styles.css';
 
 export default function () {
     return (
@@ -55,7 +55,7 @@ export default function () {
                 <span style={{
                     color: "#858788",
                     fontWeight: "bold"
-                }}> 2019 &copy; CREATELLA</span>
+                }}> 2021 &copy; CREATELLA</span>
             </div>
         </footer>
     );

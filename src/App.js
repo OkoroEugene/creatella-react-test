@@ -9,18 +9,10 @@ export default class App extends React.Component {
             <div>
                 <Navbar />
                 <br />
+                <br />
                 <Body />
                 <Footer />
             </div>
         );
     }
 }
-
-// export default function(){
-//     function test() {
-//         return alert("hello")
-//     }
-//     return(
-//         <a href="javascript:void(0);" onClick={() => alert("sssk")}>HELLLoddooo</a>
-//     )
-// }
