@@ -1,0 +1,14 @@
+/* @font-face {
+    font-family: 'AvenirNextLTPro-Regular';
+    src: url('../fonts/AvenirNextLTPro-Regular.otf') format('woff');
+} */
+
+@font-face {
+    font-family: 'Eina 02';
+    src: url('../fonts/Eina02-Regular.ttf') format('woff');
+}
+
+body {
+    font-family: 'Eina 02'!important;
+    font-size: 12px;
+}
